@@ -4,6 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".ConfirmarDatos">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificar Datos"
+
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@+id/editTextTextNombre"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="104dp">
+
+    <EditText
+        android:id="@+id/editTextTextNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/pnombre"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23 jul 1939" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            tools:text="@string/ptelefono" />
+
+
+        <EditText
+            android:id="@+id/editTextTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/pcorreo"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="461dp" />
+
+        <EditText
+            android:id="@+id/editTextTextDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/pdescripcion" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/editar"
+            android:theme="@style/RaisedButton" />
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.constraintlayout.widget.ConstraintLayout>
