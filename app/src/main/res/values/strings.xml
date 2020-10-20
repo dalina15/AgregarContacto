@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AgregarContacto</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="fecha">Fecha de Nacimiento</string>
+    <string name="telefono">Teléfono</string>
+    <string name="correo">Email</string>
+    <string name="descripcion">Descripción Contacto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="editar">Editar Datos</string>
+    <string name="pnombre">Bruce Wayne</string>
+    <string name="pfecha">23 Jul 1939</string>
+    <string name="ptelefono">0951batman</string>
+    <string name="pcorreo">iamnotbatman@gmail.com</string>
+    <string name="pdescripcion">Su personalidad múltiple le hace pensar que es Batman</string>
+</resources>
